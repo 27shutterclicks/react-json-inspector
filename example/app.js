@@ -8,3 +8,7 @@ var h = React.createElement;
 var data = require('./data.json');
 
 
+React.render(
+    <Inspector data={ data } />,
+    document.getElementById('inspector')
+);
